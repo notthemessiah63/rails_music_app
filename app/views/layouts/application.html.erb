@@ -7,6 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
+  <nav>
+    <li><%= link_to('Albums',albums_path) %></li>
+  </nav>
+</header>
 
 <%= yield %>
 
